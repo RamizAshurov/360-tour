@@ -68,10 +68,13 @@ body.fullscreen-enabled.mobile #titleBar {
 /* If there are multiple scenes the title bar must make space for the scene list toggle */
 body.multiple-scenes #titleBar {
   left: 40px;
+  left: 220px;
 }
 
 body.multiple-scenes.mobile #titleBar {
-  left: 50px;
+  top: 8px;
+  left: 58px;
+  right: 8px;
 }
 
 #titleBar .sceneName {
@@ -92,7 +95,10 @@ body.multiple-scenes.mobile #titleBar {
 }
 
 .mobile #titleBar .sceneName {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   line-height: 40px;
+  /* padding-right: 50px; */
 }
 
 #fullscreenToggle {
@@ -108,6 +114,11 @@ body.multiple-scenes.mobile #titleBar {
 }
 
 .mobile #fullscreenToggle {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  top: auto;
+  right: 8px;
+  bottom: 8px;
   width: 50px;
   height: 50px;
 }
@@ -158,6 +169,10 @@ body.fullscreen-enabled #fullscreenToggle {
 }
 
 .mobile #autorotateToggle {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  top: auto;
+  bottom: 8px;
   width: 50px;
   height: 50px;
 }
@@ -168,7 +183,7 @@ body.fullscreen-enabled #autorotateToggle {
 }
 
 body.fullscreen-enabled.mobile #autorotateToggle {
-  right: 50px;
+  right: 58px;
 }
 
 #autorotateToggle .icon {
@@ -200,10 +215,49 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   display: none;
 }
 
+#logo {
+  background-color: rgba(103,115,131,0.8);
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#logo .logo {
+  display: none;
+  height: 40px;
+  vertical-align: top;
+}
+
+#logo .logo-full {
+  width: 160px;
+  height: 30px;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.mobile #logo {
+  background-color: rgba(58,68,84,0.8);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  top: 8px;
+  left: 8px;
+  padding: 5px;
+}
+
+.mobile #logo .logo {
+  display: initial;
+}
+
+.mobile #logo .logo-full {
+  display: none;
+}
+
 #sceneListToggle {
   position: absolute;
   top: 0;
   left: 0;
+  left: 180px;
   width: 40px;
   height: 40px;
   padding: 5px;
@@ -212,6 +266,10 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .mobile #sceneListToggle {
+  border-radius: 4px;
+  top: auto;
+  left: 8px;
+  bottom: 8px;
   width: 50px;
   height: 50px;
 }
