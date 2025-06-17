@@ -1,11 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-<<<<<<< HEAD
-      "id": "0-",
-=======
       "id": "office-parking",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Парковка",
       "levels": [
         {
@@ -41,9 +37,6 @@ var APP_DATA = {
           "yaw": -0.04785170387715887,
           "pitch": 0.04995290706877498,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "1---"
-=======
           "target": "office-territory"
         },
         {
@@ -57,17 +50,12 @@ var APP_DATA = {
           "pitch": -0.02445832287743599,
           "rotation": 0,
           "target": "bukhoro_area_near"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "1---",
-=======
       "id": "office-territory",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Вход на территорию",
       "levels": [
         {
@@ -103,31 +91,19 @@ var APP_DATA = {
           "yaw": -0.18869775625709018,
           "pitch": 0.06751320759311952,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "2-"
-=======
           "target": "office-yard"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": 3.0335937258026924,
           "pitch": 0.0749606953305122,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "0-"
-=======
           "target": "office-parking"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "2-",
-=======
       "id": "office-yard",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Площадка",
       "levels": [
         {
@@ -163,31 +139,19 @@ var APP_DATA = {
           "yaw": 0.4346319181122116,
           "pitch": 0.05232202351411175,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "3-"
-=======
           "target": "office-porch"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": 2.5125449072738366,
           "pitch": 0.09887057196988991,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "1---"
-=======
           "target": "office-territory"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "3-",
-=======
       "id": "office-porch",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Крыльцо",
       "levels": [
         {
@@ -223,31 +187,19 @@ var APP_DATA = {
           "yaw": -0.04864998822635158,
           "pitch": -0.14752169722460984,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "4---"
-=======
           "target": "office-entrance"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": -2.3393239719803294,
           "pitch": 0.19105768341875873,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "2-"
-=======
           "target": "office-yard"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "4---",
-=======
       "id": "office-entrance",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Вход в здание",
       "levels": [
         {
@@ -283,31 +235,19 @@ var APP_DATA = {
           "yaw": 0.18256190057537403,
           "pitch": -0.20455897542925428,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "5-4--"
-=======
           "target": "office-fourth-floor"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": 2.7569327339122838,
           "pitch": 0.13392769639175484,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "3-"
-=======
           "target": "office-porch"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "5-4--",
-=======
       "id": "office-fourth-floor",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "4-ый этаж",
       "levels": [
         {
@@ -343,31 +283,19 @@ var APP_DATA = {
           "yaw": -0.6509221661914086,
           "pitch": 0.29820907529780705,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "6-c-bobo"
-=======
           "target": "office-main"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": 3.0899012202506304,
           "pitch": 0.32209261009707113,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "4---"
-=======
           "target": "office-entrance"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "6-c-bobo",
-=======
       "id": "office-main",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Офиc BO/BO",
       "levels": [
         {
@@ -403,31 +331,19 @@ var APP_DATA = {
           "yaw": -0.23912922386190694,
           "pitch": 0.047321608681150096,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "7-it-"
-=======
           "target": "office-it-department"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": 1.7925730808528657,
           "pitch": 0.17353419056705022,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "5-4--"
-=======
           "target": "office-fourth-floor"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "7-it-",
-=======
       "id": "office-it-department",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "IT-отдел",
       "levels": [
         {
@@ -463,51 +379,31 @@ var APP_DATA = {
           "yaw": -0.5830336561993512,
           "pitch": 0.1399621639804174,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "9--team-lead"
-=======
           "target": "office-team-lead"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": 0.13681582009425597,
           "pitch": 0.02199472564728211,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "8-"
-=======
           "target": "office-window"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": -2.957083499213944,
           "pitch": 0.16191164698052063,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "6-c-bobo"
-=======
           "target": "office-main"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         },
         {
           "yaw": 2.6101815849510244,
           "pitch": 0.1310162293246222,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "5-4--"
-=======
           "target": "office-fourth-floor"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "8-",
-=======
       "id": "office-window",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Окно",
       "levels": [
         {
@@ -543,21 +439,13 @@ var APP_DATA = {
           "yaw": -0.0712575839567311,
           "pitch": 0.33041307906368544,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "1---"
-=======
           "target": "office-territory"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []
     },
     {
-<<<<<<< HEAD
-      "id": "9--team-lead",
-=======
       "id": "office-team-lead",
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
       "name": "Место Team Lead",
       "levels": [
         {
@@ -593,9 +481,6 @@ var APP_DATA = {
           "yaw": -0.1466674688761458,
           "pitch": 0.08653431341110718,
           "rotation": 0,
-<<<<<<< HEAD
-          "target": "7-it-"
-=======
           "target": "office-it-department"
         }
       ],
@@ -1738,7 +1623,6 @@ var APP_DATA = {
           "pitch": 0.23080333696278643,
           "rotation": 0,
           "target": "shoh_palace_entrance_stairs"
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
         }
       ],
       "infoHotspots": []

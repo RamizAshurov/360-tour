@@ -249,17 +249,10 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 .mobile #logo {
   background-color: rgba(58,68,84,0.8);
-<<<<<<< HEAD
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  top: 8px;
-  left: 8px;
-=======
   /* border-top-left-radius: 4px;
   border-bottom-left-radius: 4px; */
   top: 0px;
   left: 0px;
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
   padding: 5px;
 }
 

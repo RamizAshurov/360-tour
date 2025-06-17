@@ -87,11 +87,7 @@
       view: view,
       pinFirstLevel: true
     });
-<<<<<<< HEAD
-
-=======
     
->>>>>>> 6ad1d8da (add crown tower residence & bukhoro residence)
     // Create link hotspots.
     data.linkHotspots.forEach(function(hotspot) {
       var element = createLinkHotspotElement(hotspot);
