@@ -389,4 +389,15 @@
   // Display the initial scene.
   switchScene(scenes[0]);
 
+
+  // scenes list 
+  var scenesList = document.querySelector('.scenes')
+
+  sceneListElement.addEventListener("click", (e) => {
+    if (!e.target.closest('button')) {
+      return null
+    }
+
+    e.target.closest('.scene-item').classList.toggle('scene-item__opened')
+  })
 })();

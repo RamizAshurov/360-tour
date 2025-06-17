@@ -241,7 +241,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .mobile #logo {
-  background-color: rgba(58,68,84,0.8);
+  /* background-color: rgba(58,68,84,0.8); */
   /* border-top-left-radius: 4px;
   border-bottom-left-radius: 4px; */
   top: 0px;
@@ -341,6 +341,47 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   background-color: rgb(33, 33, 33);
 }
 
+.scene-item {
+
+}
+
+.scene-item button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  outline: none;
+  padding: 8px 20px;
+  width: 100%;
+  min-height: 50px;
+  text-align: left;
+}
+
+.scene-item button img {
+  width: 20px;
+  height: 20px;
+}
+
+.scene-item ul {
+  display: none;
+  padding: 0 16px 8px;
+}
+
+.scene-item__opened ul {
+  display: block;
+}
+
+.scene-item__opened button img {
+  transform: rotate(180deg);
+}
+
 .mobile #sceneList {
   width: 100%;
   height: 100%;
@@ -352,7 +393,9 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .mobile #sceneList .scenes {
+  padding-bottom: 60px;
   height: 100%;
+  overflow: auto;
 }
 
 #sceneList.enabled {
